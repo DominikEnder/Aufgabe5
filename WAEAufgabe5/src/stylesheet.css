@@ -1,0 +1,87 @@
+body {
+    background-color: black;
+}
+
+.center {
+    display: block;
+    margin-left: 40%;
+    margin-right: 60%;
+    width: 30%;
+}
+
+div {
+    background-color: black;
+}
+
+h1 {
+    font-family: Corbel;
+    Color: white;
+    text-align: center;
+    background-color: black;
+}
+
+h2 {
+    font-family: Corbel;
+    Color: white;
+    background-color: black;
+    text-align: center;
+}
+
+h3 {
+    font-family: Corbel;
+    Color: white;
+}
+
+p {
+    font-family: Calibri;
+    Color: white;
+    text-align: center;
+    background-color: black;
+}
+
+main {
+
+}
+
+nav {
+    background-color: black;
+}
+
+th {
+    Color: white;
+    font-family: Corbel;
+    margin-left: 40%;
+    margin-right: 60%;
+}
+
+td {
+    Color: white;
+    font-family: Corbel;
+}
+
+table {
+    margin-left: 33%;
+}
+
+a {
+    margin-left: 0%;
+    background-color: black;
+    font-size: 14pt;
+    Color: white;
+}
+
+.email {
+    margin-left: 45%;
+    background-color: black;
+}
+
+@media-print {
+body {
+color: black;
+background-color: white;
+}
+nav {
+display: none;
+}
+font-family: "Comic sans";
+}
